@@ -2,7 +2,7 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'framer-motion';
 import { useRef } from 'react';
-import { HiCode, HiStar } from 'react-icons/hi';
+import { HiCode, HiStar, HiExternalLink } from 'react-icons/hi';
 
 
 const Projects = () => {
@@ -99,13 +99,58 @@ const Projects = () => {
       technologies: ['OpenAI API', 'ElevenLabs', 'React', 'Node.js', 'Audio Processing'],
       liveUrl: '#',
       codeUrl: '#',
-      category: 'Web App',
+      category: 'Backend',
       featured: false,
       stats: { stars: 45, forks: 10 }
+    },
+    {
+      title: 'Tulsi Visa Abroad',
+      description: [
+        'A comprehensive visa consultancy platform designed to assist students and travelers.',
+        'Provides services for student visas, job visas, tourist visas, and passport documentation.',
+        'Simplifies the study abroad process with expert guidance and streamlined documentation support.'
+      ],
+      image: '✈️',
+      technologies: ['React', 'Tailwind CSS', 'Frontend Development'],
+      liveUrl: 'https://tulsi-visa.onrender.com/',
+      codeUrl: '#',
+      category: 'Personal',
+      featured: false,
+      stats: { stars: 30, forks: 5 }
+    },
+    {
+      title: 'CricTrack',
+      description: [
+        'A dynamic cricket management system for scoring and tournament organization.',
+        'Features live match scoring, player statistics tracking, and team management.',
+        'Provides a seamless experience for cricket enthusiasts to manage and view match details.'
+      ],
+      image: '🏏',
+      technologies: ['React', 'Vite', 'Node.js', 'Sports Tech'],
+      liveUrl: 'https://crictrack-fe.onrender.com/',
+      codeUrl: '#',
+      category: 'Personal',
+      featured: false,
+      stats: { stars: 40, forks: 8 }
+    },
+    {
+      title: 'Moon Cafe',
+      description: [
+        'A modern digital solution for cafe management and ordering.',
+        'Allows customers to browse the menu, place orders, and explore cafe offerings.',
+        'Designed with a focus on user experience to enhance the dining and ordering process.'
+      ],
+      image: '☕',
+      technologies: ['React', 'Context API', 'UI/UX Design'],
+      liveUrl: 'https://cafe-fe-15bc.onrender.com/',
+      codeUrl: '#',
+      category: 'Personal',
+      featured: false,
+      stats: { stars: 25, forks: 4 }
     }
   ];
 
-  const categories = ['All', 'Full Stack', 'Frontend', 'Backend', 'Web App'];
+  const categories = ['All', 'Backend', 'Personal'];
   const [activeCategory, setActiveCategory] = React.useState('All');
 
   const filteredProjects = activeCategory === 'All'
@@ -244,6 +289,31 @@ const Projects = () => {
                       {tech}
                     </span>
                   ))}
+                </div>
+
+                <div className="flex gap-4">
+                  {project.liveUrl !== '#' && (
+                    <a
+                      href={project.liveUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-primary-600 text-white rounded-lg hover:bg-primary-700 transition-colors text-sm font-medium"
+                    >
+                      <HiExternalLink />
+                      Live Demo
+                    </a>
+                  )}
+                  {project.codeUrl !== '#' && (
+                    <a
+                      href={project.codeUrl}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="flex-1 flex items-center justify-center gap-2 px-4 py-2 bg-gray-100 text-gray-700 rounded-lg hover:bg-gray-200 transition-colors text-sm font-medium"
+                    >
+                      <HiCode />
+                      Code
+                    </a>
+                  )}
                 </div>
 
               </div>
