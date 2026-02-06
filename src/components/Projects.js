@@ -147,6 +147,22 @@ const Projects = () => {
       category: 'Personal',
       featured: false,
       stats: { stars: 25, forks: 4 }
+    },
+    {
+      title: 'Selection – Clothing Rental & Booking Management System',
+      description: [
+        'Developed Selection, a clothing rental booking platform that allows users to rent ethnic and formal wear such as blazers, Jodhpuri, Indo-Western outfits, and more.',
+        'The platform supports Admin and User roles. The Admin can add and manage categories and clothing collections, handle booking requests, and accept or decline bookings submitted by users.',
+        'Admins can also track the complete order lifecycle, including deposit collection, payment status, order delivery, and return confirmation. This ensures full visibility and control over each rental order.',
+        'Users can browse available collections, submit rental booking requests, and track the status of their bookings. The system is designed to simplify the rental workflow while ensuring transparency and smooth coordination between users and administrators.'
+      ],
+      image: '👗',
+      technologies: ['React', 'Node.js', 'MongoDB', 'Admin Panel'],
+      liveUrl: 'https://selection-fe.onrender.com/',
+      codeUrl: '#',
+      category: 'Personal',
+      featured: false,
+      stats: { stars: 35, forks: 6 }
     }
   ];
 
