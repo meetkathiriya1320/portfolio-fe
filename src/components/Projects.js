@@ -32,7 +32,7 @@ const Projects = () => {
         'Developed features for location-aware service matching, transparent pricing models, real-time booking, and service-provider workflow management.',
         'Structured database schemas and API endpoints to handle secure transactions, user profiles, provider scheduling, and localization supporting multiple languages.'
       ],
-      image: '💼',
+      image: '💼', 
       technologies: ['Node.js', 'Express', 'API Development', 'PostgreSQL', 'Localization'],
       liveUrl: 'https://wegig.app/',
       codeUrl: '#',
