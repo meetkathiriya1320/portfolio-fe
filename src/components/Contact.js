@@ -43,8 +43,8 @@ const Contact = () => {
     {
       icon: HiMail,
       title: 'Email',
-      value: 'meet.kathiriy1320@gmail.com',
-      link: 'mailto:meet.kathiriya@example.com',
+      value: 'meet.kathiriya1320@gmail.com',
+      link: 'mailto:meet.kathiriya1320@gmail.com',
       color: 'from-blue-500 to-blue-600'
     },
     {
@@ -57,7 +57,7 @@ const Contact = () => {
     {
       icon: HiLocationMarker,
       title: 'Location',
-      value: 'Surat,Gujarat,India',
+      value: 'Surat, Gujarat, India',
       link: '#',
       color: 'from-purple-500 to-purple-600'
     }

@@ -66,8 +66,8 @@ const Experience = () => {
   ];
 
   const stats = [
-    { icon: HiCode, label: 'Projects Completed', value: '6+' },
-    { icon: HiBriefcase, label: 'Years Experience', value: '2.5+' }
+    { icon: HiCode, label: 'Projects Completed', value: '8+' },
+    { icon: HiBriefcase, label: 'Years Experience', value: '3' }
   ];
 
   return (

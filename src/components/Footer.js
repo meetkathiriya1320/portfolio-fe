@@ -82,15 +82,19 @@ const Footer = () => {
                 <div className="space-y-3 mb-6">
                   <div className="flex items-center text-gray-400">
                     <HiMail className="mr-3 text-primary-400" />
-                    <span className="text-sm">vasu.kaneriya@example.com</span>
+                    <a href="mailto:meet.kathiriya1320@gmail.com" className="text-sm hover:text-white transition-colors">
+                      meet.kathiriya1320@gmail.com
+                    </a>
                   </div>
                   <div className="flex items-center text-gray-400">
                     <HiPhone className="mr-3 text-primary-400" />
-                    <span className="text-sm">+91 98765 43210</span>
+                    <a href="tel:+918866999103" className="text-sm font-medium hover:text-white transition-colors">
+                      +91 88669 99103
+                    </a>
                   </div>
                   <div className="flex items-center text-gray-400">
                     <HiLocationMarker className="mr-3 text-primary-400" />
-                    <span className="text-sm">Mumbai, India</span>
+                    <span className="text-sm">Surat, Gujarat, India</span>
                   </div>
                 </div>
 

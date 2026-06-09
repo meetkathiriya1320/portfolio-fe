@@ -38,7 +38,7 @@ const About = () => {
 
   const personalInfo = [
     { label: 'Name', value: 'Meet Kathiriya' },
-    { label: 'Experience', value: '2.5+ Years' },
+    { label: 'Experience', value: '3 Years' },
     { label: 'Location', value: 'Surat, Gujarat' },
     { label: 'Email', value: 'meet.kathiriya1320@gmail.com' },
     { label: 'Phone', value: '+91 88669 99103' },
@@ -90,7 +90,7 @@ const About = () => {
 
               <div className="space-y-4 text-gray-600 leading-relaxed text-lg">
                 <p>
-                  I’m a passionate Backend Developer with over 2.5 years of experience
+                  I’m a passionate Backend Developer with over 3 years of experience
                   building robust and scalable server-side applications. I specialize in Node.js, JavaScript,
                   and backend architecture to design secure, high-performance systems that power modern web applications.
                 </p>

@@ -11,6 +11,51 @@ const Projects = () => {
 
   const projects = [
     {
+      title: 'Vehicleinfo – RTO Vehicle Details & Challan App',
+      description: [
+        'Contributed to the development of the backend services and features for Vehicleinfo, an all-in-one vehicle services platform trusted by millions of users.',
+        'Enabled checking of RTO vehicle registration details (RC), tracking traffic challans, and managing insurance info. Integrated APIs for resale valuation, driving licence checks, and FASTag recharges.',
+        'Designed scalable API integrations and optimized queries to handle high-frequency RTO searches and traffic challan status lookups efficiently.'
+      ],
+      image: '🚗',
+      technologies: ['Node.js', 'Next.js', 'Express', 'API Integration', 'PostgreSQL'],
+      liveUrl: 'https://vehicleinfo.app',
+      codeUrl: '#',
+      category: 'Backend',
+      featured: true,
+      stats: { stars: 120, forks: 30 }
+    },
+    {
+      title: 'Wegig – Corporate Business & On-Demand Service Platform',
+      description: [
+        'Designed and built scalable backend APIs for Wegig, an on-demand service and corporate business operations platform that connects users with trusted local professionals.',
+        'Developed features for location-aware service matching, transparent pricing models, real-time booking, and service-provider workflow management.',
+        'Structured database schemas and API endpoints to handle secure transactions, user profiles, provider scheduling, and localization supporting multiple languages.'
+      ],
+      image: '💼',
+      technologies: ['Node.js', 'Express', 'API Development', 'PostgreSQL', 'Localization'],
+      liveUrl: 'https://wegig.app/',
+      codeUrl: '#',
+      category: 'Backend',
+      featured: true,
+      stats: { stars: 98, forks: 22 }
+    },
+    {
+      title: 'P&L Reporting & Analytics System',
+      description: [
+        'Developed a dynamic Profit & Loss (P&L) reporting system for leading insurance firms (ICICI Lombard and Reliance General Insurance - RGIC) designed to handle large-scale financial datasets.',
+        'Built optimized backend logic to compare past and present year financial data, calculating key metrics such as Gross Written Premium (GWP) and growth projections.',
+        'Optimized complex database queries and processing algorithms to deliver real-time reports and comparative growth analysis with high performance and accuracy.'
+      ],
+      image: '📊',
+      technologies: ['Node.js', 'Express', 'PostgreSQL', 'Data Analytics', 'Performance Tuning'],
+      liveUrl: '#',
+      codeUrl: '#',
+      category: 'Backend',
+      featured: true,
+      stats: { stars: 88, forks: 15 }
+    },
+    {
       title: 'Appointment Booking Application',
       description: [
         'Developed a backend system for an appointment booking application using Node.js and MongoDB, designed for service-based businesses such as salons, clinics, and local shops.',

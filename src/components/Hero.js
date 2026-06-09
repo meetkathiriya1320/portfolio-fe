@@ -84,6 +84,7 @@ const Hero = () => {
                 words={[
                   "JavaScript",
                   "Node.js Development",
+                  "AI & OpenAI Integration",
                   "Authentication & Authorization",
                   "MySQL",
                   "PostgreSQL",
@@ -109,7 +110,7 @@ const Hero = () => {
 
             {/* Description */}
             <p className="text-lg text-gray-600 max-w-2xl mx-auto lg:mx-0 leading-relaxed">
-              Backend Developer with 2.5+ years of experience in building secure and scalable applications using Node.js
+              Backend Developer with 3 years of experience in building secure and scalable applications using Node.js
               and JavaScript. Skilled in REST APIs, authentication & authorization, API security, and database design with MySQL,
               PostgreSQL, and MongoDB, along with experience in real-time systems, performance optimization, and team collaboration.
             </p>
@@ -134,11 +135,11 @@ const Hero = () => {
             {/* Stats */}
             <div className="flex flex-wrap justify-center lg:justify-start gap-8 md:gap-16 pt-8 border-t border-gray-100 mt-8">
               <div>
-                <h4 className="text-3xl font-bold text-blue-600">2.5+</h4>
+                <h4 className="text-3xl font-bold text-blue-600">3</h4>
                 <p className="text-gray-600 font-medium">Years Exp.</p>
               </div>
               <div>
-                <h4 className="text-3xl font-bold text-blue-600">6+</h4>
+                <h4 className="text-3xl font-bold text-blue-600">8+</h4>
                 <p className="text-gray-600 font-medium">Projects</p>
               </div>
               {/* <div>
